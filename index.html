@@ -405,8 +405,8 @@
                 const li = document.createElement('li');
                 li.className = 'list-item';
                 li.innerHTML = `
-                    <span>₹ {p}</span>
-                    <button class="btn btn-danger btn-sm" onclick="removeParticipant('₹{p}')">Remove</button>
+                    <span>${p}</span>
+                    <button class="btn btn-danger btn-sm" onclick="removeParticipant('${p}')">Remove</button>
                 `;
                 participantsList.appendChild(li);
             });
